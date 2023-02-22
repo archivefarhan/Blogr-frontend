@@ -17,7 +17,7 @@ export function Blog() {
     <div className="w-screen h-auto min-h-screen">
       <p className="mt-20 text-center font-black text-4xl">Articles</p>
       <br />
-      <div className="mt-5 rounded-full mx-auto bg-sky-400 w-8 text-white text-2xl font-black text-center">
+      <div className="mt-5 rounded-full mx-auto bg-sky-400 w-8 text-white text-2xl font-black text-center shadow">
         <a href="">+</a>
       </div>
       <div className="mt-20 grid grid-cols-3 auto-rows-auto p-3 gap-5 ml-20 mr-20">

@@ -23,7 +23,7 @@ export function Header() {
                 </li>
 
                 <li>
-                  <a class="text-gray-600 transition hover:text-gray-500/75" href="/blog">
+                  <a class="text-gray-600 transition hover:text-gray-500/75" href="/posts">
                     Blog
                   </a>
                 </li>
