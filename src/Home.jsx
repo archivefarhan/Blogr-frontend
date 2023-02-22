@@ -1,7 +1,10 @@
+import blogr from "./assets/blogr.png";
+
 export function Home() {
   return (
     <div className="w-screen h-auto min-h-screen">
-      <h1 className="text-center mt-96 font-bold text-4xl">BLOGR</h1>
+      <img src={blogr} alt="logo" className="mx-auto mt-96" />
+      <p className="text-9xl font-black text-center mt-10">BLOGR</p>
     </div>
   );
 }

@@ -10,6 +10,7 @@ export function LogoutLink() {
 
   return (
     <div className="text-sky-600 text-sm">
+      <p className="text-black">Welcome User!</p>
       <a href="/" onClick={handleClick}>
         Logout
       </a>
