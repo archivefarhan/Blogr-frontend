@@ -7,6 +7,7 @@ import { Footer } from "./Footer";
 import { Signup } from "./Signup";
 import { Login } from "./Login";
 import { Blog } from "./Blog";
+import { BlogShowPage } from "./BlogShowPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/posts/:id" element={<BlogShowPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
