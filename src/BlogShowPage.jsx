@@ -40,6 +40,10 @@ export function BlogShowPage() {
               </article>
             </div>
           </div>
+
+          <div className="mt-5 bg-sky-400 w-14 text-center text-white rounded-lg mx-auto">
+            <a href="/blog">Back</a>
+          </div>
         </div>
       </section>
     </div>

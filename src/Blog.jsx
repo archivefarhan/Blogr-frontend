@@ -17,6 +17,9 @@ export function Blog() {
     <div className="w-screen h-auto min-h-screen">
       <p className="mt-20 text-center font-black text-4xl">Articles</p>
       <br />
+      <div className="mt-5 rounded-full mx-auto bg-sky-400 w-8 text-white text-2xl font-black text-center">
+        <a href="">+</a>
+      </div>
       <div className="mt-20 grid grid-cols-3 auto-rows-auto p-3 gap-5 ml-20 mr-20">
         {posts.map((post) => (
           <div
@@ -45,7 +48,7 @@ export function Blog() {
               <div class="flex flex-col-reverse text-right">
                 <a
                   href={`/posts/${post.id}`}
-                  className="ml-96 rounded-md bg-sky-400 text-white text-sm w-24 text-center"
+                  className="ml-60 rounded-md bg-sky-400 text-white text-sm w-24 text-center"
                 >
                   Read Article
                 </a>
