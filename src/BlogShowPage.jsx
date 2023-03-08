@@ -13,12 +13,6 @@ export function BlogShowPage() {
     });
   };
 
-  const handleDestoryItem = () => {
-    axios.delete(`http://localhost:3000/posts/${params.id}.json`).then((response) => {
-      window.location.href = "/posts";
-    });
-  };
-
   useEffect(handleShowPost, []);
 
   return (
@@ -44,7 +38,7 @@ export function BlogShowPage() {
           <div className="grid grid-cols-2 gap-2 text-center w-1/2 mx-auto mt-5">
             <a
               class="relative font-medium text-sky-400 text-center before:absolute before:-bottom-1 before:h-0.5 before:w-1/2 before:origin-left before:scale-x-0 before:bg-sky-400 before:transition hover:before:scale-100"
-              href="/download"
+              href={`/posts/${post.id}/edit`}
             >
               Edit
             </a>
