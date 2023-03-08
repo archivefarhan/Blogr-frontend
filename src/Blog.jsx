@@ -21,16 +21,16 @@ export function Blog() {
         </>
       ) : (
         <>
-          <p className="mt-20 text-center font-black text-4xl">Articles</p>
+          <p className="mt-20 text-center font-black text-4xl">Posts</p>
           <br />
           <div className="mt-5 rounded-full mx-auto border border-sky-400 bg-transparent h-8 w-8 text-sky-400 text-xl font-black text-center shadow">
             <a href="/posts/new">+</a>
           </div>
-          <div className="mt-20 grid grid-cols-3 auto-rows-auto p-3 gap-5 ml-20 mr-20">
+          <div className="mt-10 mb-10 grid grid-cols-3 auto-rows-auto p-3 gap-5 ml-20 mr-20">
             {posts.map((post) => (
               <div
                 key={post.id}
-                className="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8"
+                className="mt-5 mb-5 relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8"
               >
                 <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-sky-200 via-sky-600 to-sky-300"></span>
 
