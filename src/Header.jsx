@@ -22,11 +22,17 @@ export function Header() {
                   </a>
                 </li>
 
-                <li>
-                  <a class="text-gray-600 transition hover:text-gray-500/75" href="/posts">
-                    Blog
-                  </a>
-                </li>
+                {localStorage.jwt === undefined ? (
+                  <></>
+                ) : (
+                  <>
+                    <li>
+                      <a class="text-gray-600 transition hover:text-gray-500/75" href="/posts">
+                        Blog
+                      </a>
+                    </li>
+                  </>
+                )}
               </ul>
             </nav>
 

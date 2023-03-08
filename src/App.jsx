@@ -8,6 +8,7 @@ import { Signup } from "./Signup";
 import { Login } from "./Login";
 import { Blog } from "./Blog";
 import { BlogShowPage } from "./BlogShowPage";
+import { BlogCreate } from "./BlogCreate";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/posts/:id" element={<BlogShowPage />} />
+          <Route path="/posts/new" element={<BlogCreate />} />
         </Routes>
       </BrowserRouter>
       <Footer />

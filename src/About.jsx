@@ -3,8 +3,6 @@ import blogr from "./assets/blogr.png";
 export function About() {
   return (
     <div className="w-screen h-auto min-h-screen">
-      <p className="mt-10 text-center font-black text-4xl">About</p>
-
       <div className="mt-60">
         <section>
           <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
